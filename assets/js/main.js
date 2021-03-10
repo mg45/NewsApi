@@ -1,6 +1,6 @@
 const newsContainer = document.getElementById("news-container");
 
-let fetchUriTechCrunch = "http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=";
+let fetchUriTechCrunch = "http://newsapi.org/v2/top-headlines?category=business&apiKey=";
 let apiKey = "18d8c403272e46099d86fa39edcb3e75";
 
 

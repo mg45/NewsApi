@@ -10,7 +10,19 @@ fetch(fetchUriTechCrunch + apiKey)
     data.articles.forEach(element => {
       newsContainer.innerHTML +=
       `
-      <div>${element.title}</div>
+      <!-- card -->
+      <div class="card item">
+        <p class ="categorie">Similar post</p>
+        <h2>${element.title}</h2>
+        <p class="description">${element.description}</p>
+        <p class="description">${element.publishedAt}</p>
+        <a class="button" href="${element.url}" target="_blank">
+          <div>
+            Hello world
+          </div>
+        </a>
+      </div>
+      <!-- end card -->
       `
     });   
   });
